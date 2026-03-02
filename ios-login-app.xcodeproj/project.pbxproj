@@ -7,29 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001000000000000001 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000001 /* Button.swift */; };
-		A1000003000000000000001 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004000000000000001 /* InputField.swift */; };
-		A1000005000000000000001 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006000000000000001 /* SplashView.swift */; };
-		A1000007000000000000001 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000008000000000000001 /* LoginAPI.swift */; };
-		A1000009000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010000000000000001 /* HomeView.swift */; };
-		A1000011000000000000001 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012000000000000001 /* LoginView.swift */; };
-		A1000013000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014000000000000001 /* ContentView.swift */; };
+		9C47DBC62F55651C00F820AD /* ios_login_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47DBC52F55651C00F820AD /* ios_login_appApp.swift */; };
+		9C47DBC82F55651C00F820AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47DBC72F55651C00F820AD /* ContentView.swift */; };
+		9C47DBCA2F55651D00F820AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47DBC92F55651D00F820AD /* Assets.xcassets */; };
+		9C47DBCD2F55651D00F820AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1000015000000000000001 /* ios-login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios-login-app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1000002000000000000001 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		A1000004000000000000001 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
-		A1000006000000000000001 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		A1000008000000000000001 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
-		A1000010000000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		A1000012000000000000001 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		A1000014000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1000016000000000000001 /* ios_login_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_login_appApp.swift; sourceTree = "<group>"; };
+		9C47DBC22F55651C00F820AD /* ios-login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-login-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C47DBC52F55651C00F820AD /* ios_login_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_login_appApp.swift; sourceTree = "<group>"; };
+		9C47DBC72F55651C00F820AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C47DBC92F55651D00F820AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1000017000000000000001 /* Frameworks */ = {
+		9C47DBBF2F55651C00F820AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,71 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1000018000000000000001 = {
+		9C47DBB92F55651C00F820AD = {
 			isa = PBXGroup;
 			children = (
-				A1000019000000000000001 /* ios-login-app */,
-				A100001A000000000000001 /* Products */,
+				9C47DBC42F55651C00F820AD /* ios-login-app */,
+				9C47DBC32F55651C00F820AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1000019000000000000001 /* ios-login-app */ = {
+		9C47DBC32F55651C00F820AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A100001B000000000000001 /* Components */,
-				A100001C000000000000001 /* Services */,
-				A100001D000000000000001 /* Views */,
-				A1000016000000000000001 /* ios_login_appApp.swift */,
-				A100001E000000000000001 /* ContentView.swift */,
-			);
-			path = ios-login-app;
-			sourceTree = "<group>";
-		};
-		A100001A000000000000001 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1000015000000000000001 /* ios-login-app.app */,
+				9C47DBC22F55651C00F820AD /* ios-login-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A100001B000000000000001 /* Components */ = {
+		9C47DBC42F55651C00F820AD /* ios-login-app */ = {
 			isa = PBXGroup;
 			children = (
-				A1000002000000000000001 /* Button.swift */,
-				A1000004000000000000001 /* InputField.swift */,
-				A1000006000000000000001 /* SplashView.swift */,
+				9C47DBC52F55651C00F820AD /* ios_login_appApp.swift */,
+				9C47DBC72F55651C00F820AD /* ContentView.swift */,
+				9C47DBC92F55651D00F820AD /* Assets.xcassets */,
+				9C47DBCB2F55651D00F820AD /* Preview Content */,
 			);
-			path = Components;
+			path = "ios-login-app";
 			sourceTree = "<group>";
 		};
-		A100001C000000000000001 /* Services */ = {
+		9C47DBCB2F55651D00F820AD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A1000008000000000000001 /* LoginAPI.swift */,
+				9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A100001D000000000000001 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A1000010000000000000001 /* HomeView.swift */,
-				A1000012000000000000001 /* LoginView.swift */,
-			);
-			path = Views;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A100001F000000000000001 /* ios-login-app */ = {
+		9C47DBC12F55651C00F820AD /* ios-login-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A100002000000000000001 /* Build configuration list for PBXNativeTarget "ios-login-app" */;
+			buildConfigurationList = 9C47DBD02F55651D00F820AD /* Build configuration list for PBXNativeTarget "ios-login-app" */;
 			buildPhases = (
-				A1000021000000000000001 /* Sources */,
-				A1000017000000000000001 /* Frameworks */,
-				A1000022000000000000001 /* Resources */,
+				9C47DBBE2F55651C00F820AD /* Sources */,
+				9C47DBBF2F55651C00F820AD /* Frameworks */,
+				9C47DBC02F55651C00F820AD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,25 +84,25 @@
 			);
 			name = "ios-login-app";
 			productName = "ios-login-app";
-			productReference = A1000015000000000000001 /* ios-login-app.app */;
+			productReference = 9C47DBC22F55651C00F820AD /* ios-login-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1000023000000000000001 /* Project object */ = {
+		9C47DBBA2F55651C00F820AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					A100001F000000000000001 = {
-						CreatedOnToolsVersion = 15.0;
+					9C47DBC12F55651C00F820AD = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = A1000024000000000000001 /* Build configuration list for PBXProject "ios-login-app" */;
+			buildConfigurationList = 9C47DBBD2F55651C00F820AD /* Build configuration list for PBXProject "ios-login-app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,50 +110,48 @@
 				en,
 				Base,
 			);
-			mainGroup = A1000018000000000000001;
-			productRefGroup = A100001A000000000000001 /* Products */;
+			mainGroup = 9C47DBB92F55651C00F820AD;
+			productRefGroup = 9C47DBC32F55651C00F820AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A100001F000000000000001 /* ios-login-app */,
+				9C47DBC12F55651C00F820AD /* ios-login-app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1000022000000000000001 /* Resources */ = {
+		9C47DBC02F55651C00F820AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C47DBCD2F55651D00F820AD /* Preview Assets.xcassets in Resources */,
+				9C47DBCA2F55651D00F820AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1000021000000000000001 /* Sources */ = {
+		9C47DBBE2F55651C00F820AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000013000000000000001 /* ContentView.swift in Sources */,
-				A1000001000000000000001 /* Button.swift in Sources */,
-				A1000003000000000000001 /* InputField.swift in Sources */,
-				A1000005000000000000001 /* SplashView.swift in Sources */,
-				A1000007000000000000001 /* LoginAPI.swift in Sources */,
-				A1000009000000000000001 /* HomeView.swift in Sources */,
-				A1000011000000000000001 /* LoginView.swift in Sources */,
+				9C47DBC82F55651C00F820AD /* ContentView.swift in Sources */,
+				9C47DBC62F55651C00F820AD /* ios_login_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1000025000000000000001 /* Debug */ = {
+		9C47DBCE2F55651D00F820AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -226,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -237,12 +208,13 @@
 			};
 			name = Debug;
 		};
-		A1000026000000000000001 /* Release */ = {
+		9C47DBCF2F55651D00F820AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -282,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,7 +264,7 @@
 			};
 			name = Release;
 		};
-		A1000027000000000000001 /* Debug */ = {
+		9C47DBD12F55651D00F820AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,20 +272,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios-login-app/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NYSZ424BL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.loginapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weipaitang.www.ios-login-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		A1000028000000000000001 /* Release */ = {
+		9C47DBD22F55651D00F820AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -329,20 +301,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ios-login-app/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NYSZ424BL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.loginapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weipaitang.www.ios-login-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000024000000000000001 /* Build configuration list for PBXProject "ios-login-app" */ = {
+		9C47DBBD2F55651C00F820AD /* Build configuration list for PBXProject "ios-login-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000025000000000000001 /* Debug */,
-				A1000026000000000000001 /* Release */,
+				9C47DBCE2F55651D00F820AD /* Debug */,
+				9C47DBCF2F55651D00F820AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000020000000000000001 /* Build configuration list for PBXNativeTarget "ios-login-app" */ = {
+		9C47DBD02F55651D00F820AD /* Build configuration list for PBXNativeTarget "ios-login-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000027000000000000001 /* Debug */,
-				A1000028000000000000001 /* Release */,
+				9C47DBD12F55651D00F820AD /* Debug */,
+				9C47DBD22F55651D00F820AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1000023000000000000001 /* Project object */;
+	rootObject = 9C47DBBA2F55651C00F820AD /* Project object */;
 }
