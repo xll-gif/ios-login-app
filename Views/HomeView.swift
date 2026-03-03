@@ -11,28 +11,44 @@ struct HomeView: View {
     @State private var isLoggedIn = true
 
     var body: some View {
-        VStack(spacing: 24) {
-            Text("欢迎回来！")
-                .font(.largeTitle)
-                .fontWeight(.bold)
+        ScrollView {
+            VStack(spacing: 24) {
+                Spacer()
+                    .frame(height: 80)
 
-            Text("您已成功登录")
-                .font(.title2)
-                .foregroundColor(.secondary)
+                // 成功图标
+                Image(systemName: "checkmark.circle.fill")
+                    .resizable()
+                    .frame(width: 80, height: 80)
+                    .foregroundColor(.green)
+                    .padding(.bottom, 24)
 
-            Spacer()
+                Text("欢迎回来！")
+                    .font(.title)
+                    .fontWeight(.bold)
 
-            Button(action: { isLoggedIn = false }) {
-                Text("退出登录")
-                    .fontWeight(.medium)
+                Text("您已成功登录")
+                    .font(.body)
+                    .foregroundColor(.secondary)
+                    .padding(.bottom, 48)
+
+                Button(action: { isLoggedIn = false }) {
+                    Text("退出登录")
+                        .fontWeight(.medium)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 50)
+                        .background(Color.gray.opacity(0.2))
+                        .foregroundColor(.primary)
+                        .cornerRadius(10)
+                }
+                .padding(.horizontal, 24)
+
+                Spacer()
             }
-            .frame(width: 200, height: 40)
-            .background(Color.gray)
-            .foregroundColor(.white)
-            .cornerRadius(4)
-            .padding(.bottom, 40)
+            .padding()
         }
-        .padding()
+        .background(Color(.systemBackground))
+        .navigationBarHidden(true)
     }
 }
 
