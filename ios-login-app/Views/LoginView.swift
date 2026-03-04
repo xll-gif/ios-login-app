@@ -131,7 +131,7 @@ extension Color {
         var int: UInt64 = 0
         Scanner(string: hex).scanHexInt64(&int)
 
-        let a, r, g, b: UInt64
+        let a, r, g, b: UInt32
         if hex.count == 8 {
             // ARGB
             a = UInt32(int >> 24)

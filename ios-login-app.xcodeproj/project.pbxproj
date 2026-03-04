@@ -11,6 +11,8 @@
 		9C47DBC82F55651C00F820AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47DBC72F55651C00F820AD /* ContentView.swift */; };
 		9C47DBCA2F55651D00F820AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47DBC92F55651D00F820AD /* Assets.xcassets */; };
 		9C47DBCD2F55651D00F820AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */; };
+		9C64041A2F57FFC80097FEBF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6404172F57FFC80097FEBF /* HomeView.swift */; };
+		9C64041B2F57FFC80097FEBF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6404182F57FFC80097FEBF /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9C47DBC72F55651C00F820AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C47DBC92F55651D00F820AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C6404172F57FFC80097FEBF /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9C6404182F57FFC80097FEBF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				9C47DBC52F55651C00F820AD /* ios_login_appApp.swift */,
 				9C47DBC72F55651C00F820AD /* ContentView.swift */,
+				9C6404192F57FFC80097FEBF /* Views */,
 				9C47DBC92F55651D00F820AD /* Assets.xcassets */,
 				9C47DBCB2F55651D00F820AD /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				9C47DBCC2F55651D00F820AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C6404192F57FFC80097FEBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C6404172F57FFC80097FEBF /* HomeView.swift */,
+				9C6404182F57FFC80097FEBF /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C64041A2F57FFC80097FEBF /* HomeView.swift in Sources */,
 				9C47DBC82F55651C00F820AD /* ContentView.swift in Sources */,
+				9C64041B2F57FFC80097FEBF /* LoginView.swift in Sources */,
 				9C47DBC62F55651C00F820AD /* ios_login_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
